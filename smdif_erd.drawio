@@ -1,0 +1,24 @@
+<mxfile>
+  <diagram name="Page-1">
+    <!-- ERD content will be generated here -->
+    <mxGraphModel>
+      <root>
+        <!-- Tables structure will be defined here -->
+        <!-- Procuraduría Table -->
+        <mxCell id="procuraduria" value="Procuraduría" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="160" height="280" as="geometry"/>
+        </mxCell>
+        <!-- Common fields for all tables -->
+        <mxCell id="common_fields" value="Fecha Registro\nNombre\nApellido Paterno\nApellido Materno\nEdad\nSexo\nCURP\nDirección\nTeléfono\nEmail" style="text" vertex="1" parent="procuraduria">
+          <mxGeometry x="10" y="40" width="140" height="150" as="geometry"/>
+        </mxCell>
+        <!-- Unique fields for Procuraduría -->
+        <mxCell id="unique_fields_procuraduria" value="Folio\nRecepción Reporte\nDatos Víctima\nDatos Evento\nProbable Agresor\nTipo Violencia\nFamiliares\nAcciones Interno\nAcciones Externo\nReportante\nPersona Llena Formato" style="text" vertex="1" parent="procuraduria">
+          <mxGeometry x="10" y="200" width="140" height="150" as="geometry"/>
+        </mxCell>
+        <!-- Repeat for other tables with their unique fields -->
+        <!-- Add relationships between tables using CURP as key -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
